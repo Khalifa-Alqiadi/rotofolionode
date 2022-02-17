@@ -6,7 +6,8 @@
   "scripts": {
     "serve:local": "nodemon index.js",
     "test": "mocha tests/*.js",
-    "lint:fix": "eslint --fix ./*.js"
+    "lint:fix": "eslint --fix ./*.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
